@@ -64,23 +64,6 @@
     color: #25d366;
   }
 
-  /* Navegación (si la usas en el footer) */
-  .navegacion {
-    display: flex;
-    gap: 2.5rem;
-    justify-content: center;
-
-    a {
-      color: $blanco;
-      text-decoration: none;
-      font-size: 1.6rem;
-
-      &:hover {
-        color: $naranja;
-      }
-    }
-  }
-
   /* Copyright */
   .copyright {
     font-size: 1.4rem;

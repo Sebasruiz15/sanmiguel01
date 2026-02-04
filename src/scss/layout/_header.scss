@@ -1,4 +1,29 @@
 .header {
-    background-color: $grisOscuro;
     padding: 1rem 0 3rem 0;
+
+    &.inicio {
+        background-image: url(../../../img/header.jpg);
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        /* Overlay oscuro SIN tapar la imagen */
+        position: relative;
+
+        &::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background-color: rgba(40, 40, 40, 0.75); // gris oscuro translúcido
+        }
+
+        .contenido-header {
+            position: relative;
+            z-index: 1;
+        }
+
+        @include tablet {
+            min-height: 40rem;
+        }
+    }
 }
