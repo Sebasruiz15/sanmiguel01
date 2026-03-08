@@ -4,7 +4,7 @@
     }
 }
 
-.proyecto{
+.proyecto {
     background-color: lighten($gris, 5);
     border:1px solid darken($gris, 10);
     border-radius: 2rem;
@@ -12,8 +12,16 @@
     .contenido-proyecto{
         padding: 2rem;
     }
-    h3, p {
+    h3{
         margin: 0;
+        text-transform: uppercase;
+        font-weight: $regular;
+    }
+    p {
+        text-decoration: none;
+        text-align: justify;
+        margin: 0;
+        font-weight: $delgada;
     }
 }
 .iconos-caracteristicas{
