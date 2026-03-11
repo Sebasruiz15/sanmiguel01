@@ -1,8 +1,8 @@
-.nosotros {
+.proyecto {
     padding: 1rem 0 3rem 0;
 
     &.inicio {
-        background-image: url(../../../img/cam02.jpg);
+        background-image: url(../../../img/NI6.jpg);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -19,7 +19,7 @@
             background-color: rgba(40, 40, 40, 0.75);
         }
 
-        .contenido-nosotros {
+        .contenido-proyecto {
             display: flex;
             flex-direction: column;
             justify-content: space-between;
