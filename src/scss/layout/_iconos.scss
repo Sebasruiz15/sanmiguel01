@@ -14,9 +14,16 @@
     }
     h3 {
         text-transform: uppercase;
+        
     }
     p {
         text-align: justify;
+        background-color: lighten($gris, 5);
+        border:1px solid darken($gris, 10);
+        border-radius: 2rem;
+        padding: 1rem;
+       
 
     }
+    
 }
